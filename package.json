@@ -1,0 +1,23 @@
+{
+  "name": "generator-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tool.js",
+  "devDependencies": {
+    "@types/node": "^16.4.0",
+    "typescript": "4.1.x"
+  },
+  "scripts": {
+    "run": "tsc tool.ts && node tool.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrdiep/typescript-compiler-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrdiep/typescript-compiler-api/issues"
+  },
+  "homepage": "https://github.com/mrdiep/typescript-compiler-api#readme"
+}
