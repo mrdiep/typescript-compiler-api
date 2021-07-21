@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Class1",
+        "documentation": "Documentation for C",
+        "type": "typeof Class1",
+        "constructors": [
+            {
+                "parameters": [
+                    {
+                        "name": "a",
+                        "documentation": "",
+                        "type": "string"
+                    },
+                    {
+                        "name": "b",
+                        "documentation": "",
+                        "type": "Class1"
+                    }
+                ],
+                "returnType": "Class1",
+                "documentation": ""
+            }
+        ]
+    }
+]

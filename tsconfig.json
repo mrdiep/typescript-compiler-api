@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "lib": ["es2020"],
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "target": "es2020",
+      "outDir": ".build",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "preserveConstEnums": true,
+      "experimentalDecorators": true
+    },
+    "include": ["./**/*.ts"],
+    "exclude": [
+      "node_modules/**/*",
+      ".serverless/**/*",
+      ".webpack/**/*",
+      ".vscode/**/*"
+    ]
+  }
